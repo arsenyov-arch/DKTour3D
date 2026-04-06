@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;                
+    gap: 30px;              
+    background: #16a2a2;    /*#03899C*/
+    width: 100%;
+    height: 99px;
+}
+
+
+.glavnaya {
+    width: 242px;    
+    height: 61px;
+    position: absolute;
+    top: 19px;
+    left: 2.109375%;   
+    background: #2E798E;/*#32aacb*/
+    text-align: center;
+    color: #fff;
+}
+
+.kvantorium {
+    width: 242px;    
+    height: 61px;
+    position: absolute;
+    top: 19px;
+    left: 53.203125%;   
+    background: #2E798E;
+    text-align: center;
+    color: #fff;
+}
+
+.dzhd {
+    width: 242px;    
+    height: 61px;
+    position: absolute;
+    top: 19px;
+    left: 79.735%;   
+    background: #2E798E;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+.DZHD_img {
+    position: absolute;
+    bottom: 150px;
+     left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 2644px;
+    height: 900px;
+}
