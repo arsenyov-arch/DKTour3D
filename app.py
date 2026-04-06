@@ -1,4 +1,24 @@
 from flask import Flask, render_template
+from peewee import *
+
+db = SqliteDatabase('instance/dktour.db')
+
+class Kvant(Model):
+    name = CharField(32)
+    information = TextField()
+    coordinates = CharField()
+
+    class Meta:
+        database = db
+
+
+class Place(Model):
+    coordinates = CharField()
+
+    class Meta:
+        database = db
+
+db.create_tables([Kvant, Place])
 
 app = Flask(__name__)
 
